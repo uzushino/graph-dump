@@ -1,0 +1,15 @@
+[package]
+name = "graph-dump"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+petgraph = "*"
+csv = "*"
+serde = "1.0.55"
+dhat = "*"
+
+[dev-dependencies]
+serde = { version = "1.0.55", features = ["derive"] }
